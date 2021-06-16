@@ -8,6 +8,9 @@ body, html, main{
     background: hsl(233, 47%, 7%);
     position: relative;
 }
+.title-section{
+    display: none;
+}
 
 .card{
     background: hsl(244, 38%, 16%);
@@ -54,7 +57,7 @@ body, html, main{
     min-height: 100%;
 }
 
-h1, .attribution{
+h1, h2, .attribution{
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
 }
@@ -95,7 +98,7 @@ p{
     margin-top: auto;
 }
 
-.main h1{
+.main h1, h2{
     margin-bottom: 20px;
 }
 
@@ -103,7 +106,7 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-.stats h1{
+.stats h2{
     margin-bottom: 5px;
 }
 
@@ -149,7 +152,7 @@ p{
     h1{
         font-size: 25px;
     }
-    .stats h1{
+    .stats h2{
         font-size: 20px;
     }
     .attribution {
@@ -160,7 +163,7 @@ p{
 }
 
 @media (width : 1024px){
-    h1{
+    h1,h2{
         font-size: 50px;
         margin-bottom: 40px;
     }
@@ -170,7 +173,7 @@ p{
        line-height: 40px;
        margin-bottom: 25px;
     }
-    .stats h1, .attribution{
+    .stats h2, .attribution{
         font-size: 30px
     }
     
